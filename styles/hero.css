@@ -1,0 +1,13 @@
+:root {
+    --primary-clr: #004AAD;
+    --black: #000;
+    --white: #fff;
+    --dark: #0d1216b3;
+    --shade: #191919;
+}
+
+.hero {
+    width: 100%;
+    min-height: 100vh;
+    background-color: var(--shade);
+}
