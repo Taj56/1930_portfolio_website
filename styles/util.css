@@ -1,17 +1,20 @@
 /* xs */
-/* @media (min-width: 475px) {} */
+/* @media (width >= 475px) {} */
 
 /* sm */
-/* @media (min-width: 640px) {} */
+/* @media (width >= 640px) {} */
 
 /* md */
-/* @media (min-width: 768px) {} */
+/* @media (width >= 768px) {} */
 
 /* lg */
-/* @media (min-width: 1024px) {} */
+/* @media (width >= 1024px) {} */
 
 /* xl */
-/* @media (min-width: 1280px) {} */
+/* @media (width >= 1280px) {} */
 
 /* 2xl */
-/* @media (min-width: 1536px) {} */
+/* @media (width >= 1536px) {} */
+
+/* desktop */
+/* @media (width >= 1900px) {} */
