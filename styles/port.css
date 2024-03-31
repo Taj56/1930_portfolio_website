@@ -6,6 +6,36 @@
     --shade: #191919;
 }
 
+.portfolio {
+    width: 100%;
+    min-height: 100vh;
+    background-color: var(--shade);
+    text-align: center;
+}
+
+.port-title {
+    color: var(--white);
+    font-family: "Antonio", sans-serif;
+    font-size: 40px;
+    text-transform: uppercase;
+}
+
+.port-sub {
+    color: var(--white);
+    text-transform: capitalize;
+    font-family: "Antonio", sans-serif;
+    font-size: 30px;
+}
+
+.portfolio img {
+    width: 300px;
+}
+
+
+
+
+
+
 /* xs */
 /* @media (width >= 475px) {} */
 

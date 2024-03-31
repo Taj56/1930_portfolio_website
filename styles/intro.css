@@ -24,6 +24,7 @@
     font-family: "Antonio", sans-serif;
     font-size: 60px;
     margin-bottom: 10px;
+    /* border: 1px solid red; */
 }
 
 .intro-para {
@@ -47,10 +48,12 @@
 
 .comma-img {
     width: 350px;
+    /* border: 1px solid red; */
 }
 
 .services {
     text-align: center;
+    /* border: 1px solid red; */
 }
 
 .serv-title {
@@ -180,43 +183,51 @@
 
 /* lg */
 @media (width >= 1024px) {
+
+    .introduction {
+        flex-direction: row;
+        /* border: 1px solid red; */
+    }
+
     .intro-title {
-        font-size: 180px;
+        font-size: 50px;
     }
     
     .intro-para {
         /* border: 1px solid red; */
-        line-height: 40px;
-        font-size: 30px;
-        width: 590px;
+        line-height: 25px;
+        font-size: 18px;
+        width: 400px;
     }
     
     .client-btn {
-        padding: 5px 40px 5px 40px;
-        font-size: 40px;
+        padding: 5px 30px 5px 30px;
+        font-size: 30px;
     
     }
     
     .comma-img {
-        width: 560px;
+        width: 320px;
         /* border: 1px solid red; */
     }
     
     .serv-title {
-        font-size: 60px;
+        font-size: 40px;
     }
     
     
     .services ul li {
-        font-size: 40px;
+        font-size: 20px;
         margin-bottom: 5px;
     }
 }
 
 /* xl */
 @media (width >= 1280px) {
+    
     .introduction {
-        flex-direction: row;
+        padding-top: -150px;
+        /* border: 1px solid red; */
     }
 
     .intro-title {
@@ -224,25 +235,24 @@
     }
     
     .intro-para {
-        /* border: 1px solid red; */
-        line-height: 25px;
+        line-height: 30px;
         font-size: 20px;
-        width: 450px;
+        width: 480px;
     }
     
     .client-btn {
-        padding: 5px 40px 5px 40px;
-        font-size: 40px;
+        padding: 5px 30px 5px 30px;
+        font-size: 30px;
     
     }
     
     .comma-img {
-        width: 450px;
+        width: 400px;
         /* border: 1px solid red; */
     }
     
     .serv-title {
-        font-size: 50px;
+        font-size: 45px;
     }
     
     
@@ -255,7 +265,41 @@
 
 /* 2xl */
 @media (width >= 1495px) {
+    .introduction {
+        padding-top: -150px;
+        /* border: 1px solid red; */
+    }
+
+    .intro-title {
+        font-size: 80px;
+    }
     
+    .intro-para {
+        line-height: 30px;
+        font-size: 20px;
+        width: 500px;
+    }
+    
+    .client-btn {
+        padding: 5px 30px 5px 30px;
+        font-size: 30px;
+    
+    }
+    
+    .comma-img {
+        width: 480px;
+        /* border: 1px solid red; */
+    }
+    
+    .serv-title {
+        font-size: 45px;
+    }
+    
+    
+    .services ul li {
+        font-size: 25px;
+        margin-bottom: 5px;
+    }
 }
 
 /* desktop */
