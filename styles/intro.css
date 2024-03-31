@@ -1,0 +1,262 @@
+:root {
+    --primary-clr: #004AAD;
+    --black: #000;
+    --white: #fff;
+    --dark: #0d1216b3;
+    --shade: #191919;
+}
+
+.introduction {
+    min-height: 100vh;
+    width: 100%;
+    background: var(--shade);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: var(--white);
+    padding: 5px;
+    /* border: 1px solid red; */
+}
+
+.intro-title {
+    text-transform: uppercase;
+    font-family: "Antonio", sans-serif;
+    font-size: 60px;
+    margin-bottom: 10px;
+}
+
+.intro-para {
+    /* border: 1px solid red; */
+    text-transform: uppercase;
+    line-height: 25px;
+    width: 350px;
+    margin-bottom: 10px;
+}
+
+.client-btn {
+    background-color: var(--primary-clr);
+    color: var(--white);
+    padding: 5px 25px 5px 25px;
+    text-transform: uppercase;
+    font-family: "Antonio", sans-serif;
+    font-size: 25px;
+    cursor: pointer;
+
+}
+
+.comma-img {
+    width: 350px;
+}
+
+.services {
+    text-align: center;
+}
+
+.serv-title {
+    text-decoration: underline;
+    font-family: "Antonio", sans-serif;
+    font-size: 30px;
+    margin-bottom: 10px;
+}
+
+
+.services ul li {
+    text-transform: capitalize;
+    font-size: 20px;
+    margin-bottom: 5px;
+}
+
+/* xs */
+@media (width >= 475px) {
+    .intro-title {
+        font-size: 85px;
+        margin-bottom: 10px;
+    }
+    
+    .intro-para {
+        /* border: 1px solid red; */
+        line-height: 25px;
+        font-size: 18px;
+        width: 450px;
+        margin-bottom: 10px;
+    }
+    
+    .client-btn {
+        padding: 5px 30px 5px 30px;
+        font-size: 30px;
+    
+    }
+    
+    .comma-img {
+        width: 350px;
+    }
+    
+    .services {
+        text-align: center;
+    }
+    
+    .serv-title {
+        font-size: 35px;
+    }
+    
+    
+    .services ul li {
+        font-size: 25px;
+        margin-bottom: 5px;
+    }
+}
+
+/* sm */
+@media (width >= 640px) {
+    .intro-title {
+        font-size: 95px;
+        margin-bottom: 10px;
+    }
+    
+    .intro-para {
+        /* border: 1px solid red; */
+        line-height: 30px;
+        font-size: 20px;
+        width: 500px;
+    }
+    
+    .client-btn {
+        padding: 5px 30px 5px 30px;
+        font-size: 30px;
+    
+    }
+    
+    .comma-img {
+        width: 450px;
+        /* border: 1px solid red; */
+    }
+    
+    .serv-title {
+        font-size: 45px;
+    }
+    
+    
+    .services ul li {
+        font-size: 30px;
+        margin-bottom: 5px;
+    }
+}
+
+/* md */
+@media (width >= 768px) {
+    .intro-title {
+        font-size: 110px;
+    }
+    
+    .intro-para {
+        /* border: 1px solid red; */
+        line-height: 35px;
+        font-size: 25px;
+        width: 550px;
+    }
+    
+    .client-btn {
+        padding: 5px 40px 5px 40px;
+        font-size: 40px;
+    
+    }
+    
+    .comma-img {
+        width: 510px;
+        /* border: 1px solid red; */
+    }
+    
+    .serv-title {
+        font-size: 55px;
+    }
+    
+    
+    .services ul li {
+        font-size: 35px;
+        margin-bottom: 5px;
+    }
+}
+
+/* lg */
+@media (width >= 1024px) {
+    .intro-title {
+        font-size: 180px;
+    }
+    
+    .intro-para {
+        /* border: 1px solid red; */
+        line-height: 40px;
+        font-size: 30px;
+        width: 590px;
+    }
+    
+    .client-btn {
+        padding: 5px 40px 5px 40px;
+        font-size: 40px;
+    
+    }
+    
+    .comma-img {
+        width: 560px;
+        /* border: 1px solid red; */
+    }
+    
+    .serv-title {
+        font-size: 60px;
+    }
+    
+    
+    .services ul li {
+        font-size: 40px;
+        margin-bottom: 5px;
+    }
+}
+
+/* xl */
+@media (width >= 1280px) {
+    .introduction {
+        flex-direction: row;
+    }
+
+    .intro-title {
+        font-size: 80px;
+    }
+    
+    .intro-para {
+        /* border: 1px solid red; */
+        line-height: 25px;
+        font-size: 20px;
+        width: 450px;
+    }
+    
+    .client-btn {
+        padding: 5px 40px 5px 40px;
+        font-size: 40px;
+    
+    }
+    
+    .comma-img {
+        width: 450px;
+        /* border: 1px solid red; */
+    }
+    
+    .serv-title {
+        font-size: 50px;
+    }
+    
+    
+    .services ul li {
+        font-size: 25px;
+        margin-bottom: 5px;
+    }
+
+}
+
+/* 2xl */
+@media (width >= 1495px) {
+    
+}
+
+/* desktop */
+/* @media (width >= 1900px) {} */

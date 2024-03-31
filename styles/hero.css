@@ -7,6 +7,10 @@
     --shade: #191919;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 /* font-family: "Antonio", sans-serif; */
 
 
@@ -36,7 +40,7 @@
     font-family: "Antonio", sans-serif;
     font-weight: 700;
     font-size: 75px;
-    
+    z-index: 1;
 }
 
 .words {
@@ -75,7 +79,7 @@
     }
 
     .hero-img {
-        width: 400px;
+        width: 430px;
     }
 }
 
@@ -98,7 +102,7 @@
     }
 
     .hero-img {
-        width: 450px;
+        width: 500px;
     }
 }
 
@@ -146,7 +150,7 @@
     }
 
     .hero-img {
-        width: 600px;
+        width: 650px;
     }
 }
 
