@@ -142,6 +142,9 @@ html {
         justify-content: space-between;
         position: relative;
         align-items: center;
+        /* border: 1px solid red; */
+        /*! TEST CODE BELOW  */
+        min-height: 70vh;
     }
 
     .side-con {
@@ -181,6 +184,11 @@ html {
 
 /** xl **/
 @media (width >= 1280px) {
+
+    .hero {
+        /*! TEST CODE BELOW */
+        min-height: 100vh;
+    }
     
     .side-con {
         margin-left: 90px;
@@ -212,6 +220,12 @@ html {
 /* ideapad gaming 3 */
 /** 2xl **/
 @media (width >= 1536px) {
+
+    .hero {
+        /*! TEST CODE BELOW */
+        min-height: 90vh;
+    }
+
     .side-con {
         margin-left: 120px;
         /* border: 1px solid red; */

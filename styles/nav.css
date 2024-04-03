@@ -96,7 +96,7 @@
     }
 
     .nav-link {
-        height: auto;
+        height: 20px;
         width: 100%;
         padding: 20px 30px;
         justify-content: flex-start;

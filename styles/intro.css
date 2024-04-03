@@ -186,7 +186,9 @@
 
     .introduction {
         flex-direction: row;
-        /* border: 1px solid red; */
+        /* border: 1px solid green; */
+        /*! TEST CODE BELOW */
+        min-height: 80vh;
     }
 
     .intro-title {
@@ -228,6 +230,8 @@
     .introduction {
         padding-top: -150px;
         /* border: 1px solid red; */
+        /*! TEST CODE BELOW */
+        min-height: 100vh;
     }
 
     .intro-title {
