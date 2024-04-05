@@ -1,0 +1,195 @@
+:root {
+    --primary-clr: #004AAD;
+    --black: #000;
+    --white: #fff;
+    --dark: #0d1216b3;
+    --shade: #191919;
+}
+
+
+.highlight {
+    width: 100%;
+    min-height: 100vh;
+    background: var(--shade);
+    padding: 10px;
+}
+
+.com-con {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.highlight .title {
+    font-size: 50px;
+    text-align: center;
+}
+
+.cli-logo {
+    width: 300px;
+    margin-top: 15px;
+    /* border: 1px solid red; */
+}
+
+.cli-info {
+    color: var(--white);
+    font-weight: 700;
+    line-height: 23px;
+}
+
+.dl-btn {
+    background-color: var(--primary-clr);
+    color: var(--white);
+    padding: 5px 25px 5px 25px;
+    text-transform: uppercase;
+    font-family: "Antonio", sans-serif;
+    font-size: 25px;
+    cursor: pointer;
+    margin-left: -200px;
+    margin-top: 10px;
+}
+
+.cli-vid {
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cli-vid video {
+    width: 320px;
+}
+
+/* xs */
+@media (width >= 475px) {
+    .highlight .title {
+        font-size: 50px;
+    }
+    
+    .cli-logo {
+        width: 300px;
+        margin-left: -150px;
+        /* border: 1px solid red; */
+    }
+    
+    .cli-info {
+        font-weight: 700;
+        line-height: 23px;
+        font-size: 18px;
+    }
+    
+    .dl-btn {
+        padding: 5px 25px 5px 25px;
+        font-size: 25px;
+        margin-left: -310px;
+        margin-top: 10px;
+    }
+    
+    .cli-vid video {
+        width: 400px;
+    }
+}
+
+/* sm */
+@media (width >= 640px) {
+    .highlight .title {
+        font-size: 60px;
+    }
+    
+    .cli-logo {
+        width: 300px;
+        margin-left: -300px;
+        /* border: 1px solid red; */
+    }
+    
+    .cli-info {
+        font-weight: 700;
+        line-height: 23px;
+        font-size: 17px;
+    }
+    
+    .dl-btn {
+        padding: 5px 25px 5px 25px;
+        font-size: 30px;
+        margin-left: -450px;
+        margin-top: 10px;
+    }
+    
+    .cli-vid video {
+        width: 420px;
+    }
+}
+
+/* md */
+@media (width >= 768px) {
+    .highlight .title {
+        font-size: 60px;
+    }
+    
+    .cli-logo {
+        width: 300px;
+        margin-left: -380px;
+        /* border: 1px solid red; */
+    }
+    
+    .cli-info {
+        font-weight: 700;
+        line-height: 23px;
+        font-size: 18px;
+        width: 700px;
+        /* border: 1px solid red; */
+    }
+    
+    .dl-btn {
+        padding: 5px 25px 5px 25px;
+        font-size: 30px;
+        margin-left: -530px;
+        margin-top: 10px;
+    }
+    
+    .cli-vid video {
+        width: 420px;
+    }
+}
+
+/* lg */
+@media (width >= 1024px) {
+    .highlight .title {
+        font-size: 60px;
+    }
+    
+    .cli-logo {
+        width: 300px;
+        margin-left: -380px;
+        /* border: 1px solid red; */
+    }
+    
+    .cli-info {
+        font-weight: 700;
+        line-height: 23px;
+        font-size: 18px;
+        width: 700px;
+        /* border: 1px solid red; */
+    }
+    
+    .dl-btn {
+        padding: 5px 25px 5px 25px;
+        font-size: 30px;
+        margin-left: -530px;
+        margin-top: 10px;
+    }
+    
+    .cli-vid video {
+        width: 420px;
+    }
+}
+
+/* xl */
+/* @media (width >= 1280px) {} */
+
+/* 2xl */
+/* @media (width >= 1536px) {} */
+
+/* desktop */
+/* @media (width >= 1900px) {} */

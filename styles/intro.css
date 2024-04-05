@@ -35,7 +35,7 @@
     margin-bottom: 10px;
 }
 
-.client-btn {
+.client-btn, .btn {
     background-color: var(--primary-clr);
     color: var(--white);
     padding: 5px 25px 5px 25px;
