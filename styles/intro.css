@@ -306,5 +306,44 @@
     }
 }
 
+@media (width >= 1700px) {
+    .introduction {
+        padding-top: -150px;
+        /* border: 1px solid red; */
+        min-height: 80vh;
+    }
+
+    .intro-title {
+        font-size: 80px;
+    }
+    
+    .intro-para {
+        line-height: 30px;
+        font-size: 20px;
+        width: 500px;
+    }
+    
+    .client-btn {
+        padding: 5px 30px 5px 30px;
+        font-size: 30px;
+    
+    }
+    
+    .comma-img {
+        width: 480px;
+        /* border: 1px solid red; */
+    }
+    
+    .serv-title {
+        font-size: 45px;
+    }
+    
+    
+    .services ul li {
+        font-size: 25px;
+        margin-bottom: 5px;
+    }
+}
+
 /* desktop */
 /* @media (width >= 1900px) {} */

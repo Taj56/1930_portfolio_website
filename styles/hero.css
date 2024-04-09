@@ -254,6 +254,40 @@ html {
     }
 }
 
+@media (width >= 1700px) {
+    .hero {
+        /*! TEST CODE BELOW */
+        min-height: 80vh;
+    }
+
+    .side-con {
+        margin-left: 200px;
+        /* border: 1px solid red; */
+    }
+
+    .logo-img {
+        width: 400px;
+    }
+
+    .words {
+        line-height: 150px;
+        margin-top: -50px;
+    }
+
+    .title {
+        font-size: 160px;
+    }
+
+    .slogan {
+        font-size: 35px;
+        margin-top: -10px;
+    }
+
+    .hero-img {
+        width: 620px;
+    }
+}
+
 /** desktop **/
 /* @media (width >= 1900px) {
     
