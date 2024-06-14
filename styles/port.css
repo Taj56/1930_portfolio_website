@@ -11,14 +11,14 @@
     min-height: 100dvh;
     background-color: var(--shade);
     text-align: center;
+    padding-top: 50px;
 }
 
 .port-title {
     color: var(--white);
     font-family: "Antonio", sans-serif;
     font-size: 40px;
-    text-transform: uppercase;
-}
+    text-transform: uppercase;}
 
 .sec {
     margin-top: 10px;

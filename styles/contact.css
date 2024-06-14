@@ -1,0 +1,81 @@
+:root {
+    --primary-clr: #004AAD;
+    --black: #000;
+    --white: #fff;
+    --dark: #0d1216b3;
+    --shade: #191919;
+}
+
+
+.contact {
+    width: 100%;
+    min-height: 100dvh;
+    background-image: url(/assets/images/contact-bg-1.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: var(--shade);
+    font-family: "Antonio", sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.contact .title {
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+.contact-info {
+    text-align: center;
+}
+
+.head {
+    font-family: "Antonio", sans-serif;
+    color: var(--white);
+    text-transform: uppercase;
+    font-size: 35px;
+    margin-bottom: 5px;
+}
+
+.contact a {
+    color: var(--white);
+    font-size: 27px;
+}
+
+.logos {
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+}
+
+.logo-set {
+    display: flex;
+    flex-direction: column;
+}
+
+.logo-set img{
+    width: 200px;
+}
+
+/* xs */
+/* @media (width >= 475px) {} */
+
+/* sm */
+/* @media (width >= 640px) {} */
+
+/* md */
+/* @media (width >= 768px) {} */
+
+/* lg */
+/* @media (width >= 1024px) {} */
+
+/* xl */
+/* @media (width >= 1280px) {} */
+
+/* 2xl */
+/* @media (width >= 1536px) {} */
+
+/* desktop */
+/* @media (width >= 1900px) {} */
